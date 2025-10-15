@@ -17,7 +17,6 @@
 - [✨ Features](#-features)
 - [🚀 Quick Start](#-quick-start)
 - [🛠️ Technologies Used](#️-technologies-used)
-- [📁 Project Structure](#-project-structure)
 - [🎨 Customization Guide](#-customization-guide)
 - [📱 Responsive Design](#-responsive-design)
 - [🌙 Dark Mode](#-dark-mode)
@@ -95,23 +94,7 @@
 ### Deployment
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-## 📁 Project Structure
 
-```
-portfolio-website/
-│
-├── index.html                 # Main HTML file
-├── README.md                  # Project documentation
-│
-├── 📁 assets/                 # Static assets (optional)
-│   ├── images/               # Project images and screenshots
-│   ├── css/                  # External CSS files (if separated)
-│   └── js/                   # External JavaScript files
-│
-└── 📁 documentation/         # Additional documentation
-    ├── customization-guide.md
-    └── deployment-guide.md
-```
 
 ## 🎨 Customization Guide
 
