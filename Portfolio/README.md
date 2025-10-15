@@ -1,4 +1,4 @@
-# README for Surafel Laye Betru Portfolio Website
+# Surafel Laye Betru Portfolio Website
 
 ## Project Overview
 This is a professional portfolio website for Surafel Laye Betru, a Full Stack Web Developer based in Addis Ababa, Ethiopia. The website showcases his skills, experience, education, projects, and achievements in an elegant, responsive design.
