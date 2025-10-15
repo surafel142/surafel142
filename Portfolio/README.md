@@ -65,7 +65,7 @@
 
 1. **Clone or Download**
    ```bash
-   git clone https://github.com/surafellaye/portfolio.git
+   git clone https://github.com/surafel142/portfolio.git
    cd portfolio
    ```
 
