@@ -8,7 +8,7 @@
 
 **A modern, responsive portfolio website showcasing Full Stack Development skills and projects**
 
-[Live Demo](https://surafellaye.netlify.app) • [Report Bug](https://github.com/surafellaye/portfolio/issues) • [Request Feature](https://github.com/surafellaye/portfolio/issues)
+[Live Demo](https://surafel-laye.netlify.app) • [Report Bug](https://github.com/surafellaye/portfolio/issues) • [Request Feature](https://github.com/surafellaye/portfolio/issues)
 
 </div>
 
