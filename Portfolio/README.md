@@ -241,7 +241,7 @@ Contributions are welcome! Here's how you can help:
 ### Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/surafellaye/portfolio.git
+git clone https://github.com/surafel142/Portfolio.git
 
 # Navigate to the directory
 cd portfolio
