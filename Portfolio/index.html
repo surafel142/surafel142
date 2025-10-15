@@ -43,6 +43,7 @@
             color: var(--dark);
             line-height: 1.6;
             transition: var(--transition);
+            overflow-x: hidden;
         }
 
         .container {
@@ -53,7 +54,7 @@
         }
 
         section {
-            padding: 80px 0;
+            padding: 60px 0;
         }
 
         h1, h2, h3, h4 {
@@ -66,7 +67,7 @@
             font-size: 2.5rem;
             text-align: center;
             position: relative;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
         }
 
         h2:after {
@@ -160,7 +161,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            padding: 15px 0;
         }
 
         .logo {
@@ -233,7 +234,7 @@
 
         /* Hero Section */
         #home {
-            height: 100vh;
+            height: 180vh;
             display: flex;
             align-items: center;
             background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
@@ -244,6 +245,7 @@
         .hero-content {
             max-width: 700px;
             z-index: 2;
+            
         }
 
         .hero-content h1 {
@@ -301,14 +303,14 @@
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            gap: 40px;
             align-items: center;
         }
 
         .about-img {
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             border-radius: 20px;
-            height: 400px;
+            height: 350px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -356,7 +358,7 @@
 
         .timeline-content {
             background: var(--card-bg);
-            padding: 30px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
             position: relative;
@@ -400,12 +402,12 @@
         .skills-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
+            gap: 25px;
         }
 
         .skill-category {
             background: var(--card-bg);
-            padding: 30px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
         }
@@ -454,7 +456,7 @@
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
+            gap: 25px;
         }
 
         .project-card {
@@ -471,7 +473,7 @@
         }
 
         .project-img {
-            height: 200px;
+            height: 180px;
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             display: flex;
             align-items: center;
@@ -481,7 +483,7 @@
         }
 
         .project-info {
-            padding: 25px;
+            padding: 20px;
         }
 
         .project-info h3 {
@@ -509,16 +511,29 @@
             font-weight: 500;
         }
 
+        .project-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .project-links a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.9rem;
+        }
+
         /* Achievements & Soft Skills */
         .achievements-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            gap: 25px;
         }
 
         .achievement-card {
             background: var(--card-bg);
-            padding: 30px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
             text-align: center;
@@ -540,7 +555,7 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
-            margin-top: 30px;
+            margin-top: 25px;
         }
 
         .soft-skill {
@@ -556,14 +571,14 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 30px;
+            gap: 25px;
             max-width: 800px;
             margin: 0 auto;
         }
 
         .language-card {
             background: var(--card-bg);
-            padding: 30px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
             text-align: center;
@@ -591,7 +606,7 @@
             background: var(--card-bg);
             max-width: 700px;
             margin: 0 auto;
-            padding: 40px;
+            padding: 35px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
             text-align: center;
@@ -629,13 +644,13 @@
         .contact-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            gap: 40px;
             align-items: center;
         }
 
         .contact-info {
             background: var(--card-bg);
-            padding: 40px;
+            padding: 35px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
         }
@@ -661,7 +676,7 @@
         .social-links {
             display: flex;
             gap: 15px;
-            margin-top: 30px;
+            margin-top: 25px;
         }
 
         .social-links a {
@@ -684,7 +699,7 @@
 
         .contact-form {
             background: var(--card-bg);
-            padding: 40px;
+            padding: 35px;
             border-radius: 10px;
             box-shadow: 0 5px 15px var(--shadow);
         }
@@ -726,7 +741,7 @@
         footer {
             background: var(--dark);
             color: white;
-            padding: 40px 0 20px;
+            padding: 30px 0 15px;
             text-align: center;
         }
 
@@ -746,7 +761,7 @@
         }
 
         .copyright {
-            margin-top: 30px;
+            margin-top: 25px;
             padding-top: 20px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             font-size: 0.9rem;
@@ -772,6 +787,22 @@
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--card-bg);
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: 0 5px 15px var(--shadow);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                margin: 10px 0;
             }
 
             .mobile-menu {
@@ -800,6 +831,10 @@
                 border-right: 15px solid var(--card-bg);
                 border-left: none;
             }
+
+            section {
+                padding: 50px 0;
+            }
         }
 
         @media (max-width: 576px) {
@@ -821,12 +856,16 @@
             }
 
             .about-img {
-                height: 300px;
+                height: 250px;
             }
 
             .project-card {
                 max-width: 350px;
                 margin: 0 auto;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -869,7 +908,7 @@
                     <p><i class="fab fa-linkedin"></i> linkedin.com/in/surafel-laye</p>
                 </div>
                 <div class="hero-btns">
-                    <a href="#" class="btn">Download CV</a>
+                    <a href="data/cv.pdf" class="btn">Download CV</a>
                     <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
             </div>
@@ -1007,6 +1046,11 @@
                         </div>
                         <p><strong>Achievement:</strong> Awarded Best Graduation Project</p>
                         <p><strong>Role:</strong> Team Leader and Developer</p>
+                        <div class="project-links">
+                            <a href="https://github.com/surafel142/FamilyReunitng" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="project-card">
@@ -1024,6 +1068,51 @@
                         </div>
                         <p><strong>Achievement:</strong> Recognized by IT department for functionality</p>
                         <p><strong>Role:</strong> Developer</p>
+                        <div class="project-links">
+                            <a href="https://github.com/surafel142/Employees_HR_Data_Management_BD" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Chatbot with NLP</h3>
+                        <p>An AI-powered chatbot using natural language processing to provide intelligent responses.</p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">NLP</span>
+                            <span class="tech-pill">Machine Learning</span>
+                        </div>
+                        <p><strong>Features:</strong> Natural language understanding, contextual responses</p>
+                        <div class="project-links">
+                            <a href="https://github.com/surafel142/AI-Chatbot-with-NLP" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sales Forecasting with Deep Learning</h3>
+                        <p>A deep learning model for predicting sales trends using historical data and advanced algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Deep Learning</span>
+                            <span class="tech-pill">TensorFlow</span>
+                        </div>
+                        <p><strong>Features:</strong> Time series analysis, predictive modeling</p>
+                        <div class="project-links">
+                            <a href="https://github.com/surafel142/Sales-Forecasting-with-Deep-Learning" target="_blank">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1037,25 +1126,61 @@
                 <i class="fas fa-trophy"></i>
                 <h2>Achievements</h2>
             </div>
+                      
+                      
+                      
             <div class="achievements-container">
-                <div class="achievement-card">
-                    <i class="fas fa-medal"></i>
-                    <h3>Top 3 Final Year Project</h3>
-                    <p>Department of Computer Science, Hawassa University</p>
-                </div>
-                <div class="achievement-card">
-                    <i class="fas fa-hands-helping"></i>
-                    <h3>Active Member</h3>
-                    <p>Benion Charity Club</p>
-                </div>
-                <div class="achievement-card">
-                    <i class="fas fa-flask"></i>
-                    <h3>Participant</h3>
-                    <p>Nexus Science & Tech Club</p>
-                </div>
-            </div>
+    <!-- Achievement 1 -->
+    <div class="achievement-card">
+        <i class="fas fa-medal"></i>
+        <h3>Top 3 Final Year Project</h3>
+        <p>Department of Computer Science, Hawassa University</p>
+             <div class="hero-btns">
+                    <a href="data/project.jpg" class="btn">View</a>
+                       </div>
+    </div>
 
-            <div class="section-title" style="margin-top: 80px;">
+    <!-- Achievement 2 -->
+    <div class="achievement-card">
+        <i class="fas fa-hands-helping"></i>
+        <h3>Active Member</h3>
+        <p>Benion Charity Club</p>
+ <div class="hero-btns">
+                    <a href="data/b.jpg" class="btn">View</a>
+                       </div>
+    </div>
+
+    <!-- Achievement 3 -->
+    <div class="achievement-card">
+        <i class="fas fa-flask"></i>
+        <h3>Participant</h3>
+        <p>Nexus Science & Tech Club</p>
+<div class="hero-btns">
+                    <a href="data/n.jpg" class="btn">View</a>
+                       </div>
+    </div>
+
+    <!-- Achievement 4 -->
+    <div class="achievement-card">
+        <i class="fas fa-network-wired"></i>
+        <h3>Networking Basics</h3>
+        <p>Cisco Networking Academy</p>
+<div class="hero-btns">
+                    <a href="data/networking.jpg" class="btn">View</a>
+                       </div>
+    </div>
+
+    <!-- Achievement 5 -->
+    <div class="achievement-card">
+        <i class="fab fa-android"></i>
+        <h3>Android Developer Fundamentals Nanodegree</h3>
+        <p>Udacity</p>
+<div class="hero-btns">
+                    <a href="data/android.jpg" class="btn">View</a>
+                       </div>
+    </div>
+</div>
+            <div class="section-title" style="margin-top: 50px;">
                 <i class="fas fa-comments"></i>
                 <h2>Soft Skills</h2>
             </div>
@@ -1066,7 +1191,7 @@
                 <div class="soft-skill">Analytical Thinking</div>
             </div>
 
-            <div class="section-title" style="margin-top: 80px;">
+            <div class="section-title" style="margin-top: 50px;">
                 <i class="fas fa-language"></i>
                 <h2>Languages</h2>
             </div>
@@ -1107,83 +1232,110 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-title">
-                <i class="fas fa-envelope"></i>
-                <h2>Contact Me</h2>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Get In Touch</h3>
-                    <div class="contact-detail">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Addis Ababa, Ethiopia</p>
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p>+251 994 546 246</p>
-                            <p>+251 954 292 814</p>
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>surafellaye142@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" class="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
+ <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="section-title">
+            <i class="fas fa-envelope"></i>
+            <h2>Contact Me</h2>
         </div>
-    </section>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">Surafel<span>.</span></div>
-                <p>Full Stack Web Developer creating innovative solutions with modern technologies.</p>
-                <div class="social-links" style="justify-content: center; margin-top: 20px;">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <div class="contact-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Addis Ababa, Ethiopia</p>
+                    </div>
                 </div>
-                <div class="copyright">
-                    &copy; 2025 Surafel Laye Betru. All Rights Reserved.
+
+                <div class="contact-detail">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+251 994 546 246</p>
+                        <p>+251 954 292 814</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:surafellaye142@gmail.com">surafellaye142@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/surafel_laye" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/surafel142" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/sura_142" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://t.me/biruke142" target="_blank" title="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
                 </div>
             </div>
+<div class="contact-form">
+   <form action="mailto:surafellaye@gmail.com" method="POST" enctype="text/plain" >
+      <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control" required>
         </div>
-    </footer>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>,
+                      
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">Surafel<span>.</span></div>
+            <p>Full Stack Web Developer creating innovative solutions with modern technologies.</p>
+
+            <div class="social-links" style="justify-content: center; margin-top: 20px;">
+                <a href="https://www.linkedin.com/in/surafel_laye" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/surafel142" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/sura_142" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/biruke142" target="_blank" title="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2025 Surafel Laye Betru. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</footer>
 
     <script>
         // Dark Mode Toggle
@@ -1245,14 +1397,14 @@
         const navLinks = document.querySelector('.nav-links');
 
         mobileMenu.addEventListener('click', () => {
-            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+            navLinks.classList.toggle('active');
         });
 
         // Close mobile menu when clicking a link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 if (window.innerWidth <= 768) {
-                    navLinks.style.display = 'none';
+                    navLinks.classList.remove('active');
                 }
             });
         });
