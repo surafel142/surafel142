@@ -1,5 +1,5 @@
 # 💫 About Me:
-About Me<br><br>Hi, I’m Surafel Laye Betru — a passionate Web Developer and Computer Science graduate from Hawassa University 🇪🇹. I enjoy building modern, responsive, and efficient web applications, exploring new technologies, and solving real-world problems through code.<br><br>
+About Me<br><br>Hi, I’m a passionate Web Developer and Computer Science graduate from Hawassa University 🇪🇹. I enjoy building modern, responsive, and efficient web applications, exploring new technologies, and solving real-world problems through code.<br><br>
 
 
 ## 🌐 Socials:
